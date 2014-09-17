@@ -1,7 +1,7 @@
 {
   "name": "react-style-webpack-plugin",
   "version": "0.1.0",
-  "description": "Webpack plugin to extract React Styles style declarations into CSS bundle",
+  "description": "Webpack plugin to extract React Style style declarations into CSS bundle",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,10 +22,11 @@
     "url": "https://github.com/js-next/react-style-webpack-plugin/issues"
   },
   "homepage": "https://github.com/js-next/react-style-webpack-plugin",
+  "peerDependencies": {
+    "extract-text-webpack-plugin": "^0.3.1"
+  },
   "dependencies": {
-    "extract-text-webpack-plugin": "^0.3.1",
-    "recast": "^0.7.2",
-    "webpack": "^1.4.0-beta9"
+    "recast": "^0.7.2"
   },
   "devDependencies": {
     "jshint": "^2.5.5",
