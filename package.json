@@ -1,6 +1,6 @@
 {
   "name": "react-style-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Webpack plugin to extract React Style style declarations into CSS bundle",
   "main": "./lib/index.js",
   "scripts": {
@@ -26,7 +26,8 @@
     "extract-text-webpack-plugin": "^0.3.1"
   },
   "dependencies": {
-    "recast": "^0.7.2"
+    "recast": "^0.7.2",
+    "loader-utils": "~0.2.3"
   },
   "devDependencies": {
     "jshint": "^2.5.5",
