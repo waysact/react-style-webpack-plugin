@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/js-next/react-style-webpack-plugin",
   "peerDependencies": {
-    "extract-text-webpack-plugin": "^1.0.0"
+    "extract-text-webpack-plugin": "^0.8.0"
   },
   "dependencies": {
     "autoprefixer": "^6.0.0",
